@@ -203,3 +203,8 @@ sans-serif; */
   line-height: 1.9;
   color: var(--color-primary);
 }
+
+/* Оформлення блоків */
+.container {
+  width: 1200;
+}
