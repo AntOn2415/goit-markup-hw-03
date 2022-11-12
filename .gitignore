@@ -105,3 +105,13 @@ dist
 
 # file macOS
 .DS_Store
+
+.vscode
+
+.idea
+
+node_modules
+
+.env
+
+*.psd

@@ -17,22 +17,20 @@
   </head>
   <body>
     <header class="top-line">
-      <div class="container">
-        <nav>
+      <div class="container mein-line">
+        <nav class="nav-sector">
           <a class="logo-link" href="./index.html"><span class="logo">Web</span>Studio</a>
           <ul class="site-nav list">
-            <li><a class="connect current" href="./index.html">Студія</a></li>
-            <li><a class="connect" href="./portfolio.html">Портфоліо</a></li>
-            <li><a class="connect" href="#">Контакти</a></li>
+            <li class="item"><a class="connect current" href="./index.html">Студія</a></li>
+            <li class="item"><a class="connect" href="./portfolio.html">Портфоліо</a></li>
+            <li class="item"><a class="connect" href="#">Контакти</a></li>
           </ul>
         </nav>
-      </div>
-      <div class="container">
         <ul class="contact list">
-          <li>
+          <li class="item">
             <a class="connect" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="item">
             <a class="connect" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -45,11 +43,11 @@
           <button class="button-hero" type="button">Замовити послугу</button>
         </div>
       </section>
-      <section>
+      <section class="section">
         <!--Приховати наступний заголовок в CSS-->
-        <h2 class="section-title visually-hidden">Переваги студії</h2>
+        <h2 class="visually-hidden">Переваги студії</h2>
         <div class="container">
-          <ul class="list">
+          <ul class="list merit">
             <li>
               <h3 class="section-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="post-text">
@@ -77,33 +75,37 @@
           </ul>
         </div>
       </section>
-      <section>
+      <section class="section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-          <img
+          <ul class="list work">
+            <li><img
             src="./images/img-1.jpg"
             alt="Програмист пряцює за столом. Нtml код."
             width="370"
             height="294"
-          />
-          <img
+          /></li>
+            <li><img
             src="./images/img-2.jpg"
             alt="Дизайнер розробляе мобільні додатки. Інтерфейс для смартфона."
             width="370"
             height="294"
           />
-          <img
+          </li>
+            <li><img
             src="./images/img-3.jpg"
             alt="Художник вебдизайнер вибирає кольор на графичному планшеті."
             width="370"
             height="294"
-          />
+          /></li>
+          </ul>
+          </li>
         </div>
       </section>
-      <section class="section-team">
+      <section class="section-team section">
         <div class="container">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
+        <ul class="list team">
           <li>
             <img src="./images/img-4.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
             <h3 class="section-subtitle">Ігор Дем'яненко</h3>
@@ -133,21 +135,21 @@
       <a class="logo-link logo-footer" href="./index.html"><span class="logo">Web</span>Studio</a>
       <address>
         <ul class="list">
-          <li>
+          <li class="list-item">
             <a
               class="connect reach"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >м. Київ, пр-т Лесі Українки, 26</a
-            >
+            > 
           </li>
-          <li>
+          <li class="list-item">
             <a class="connect contact-address" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="list-item">
             <a class="connect contact-address" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
