@@ -234,7 +234,12 @@ margin-top: 0;
 /* чим ми займаемося */
 .work {
   display: flex;
-
+}
+.work-foto {
+  margin-left: 30px;
+}
+.work-foto:first-child {
+  margin-left: 0;
 }
 /* наша команда */
 .section-team {
@@ -243,6 +248,13 @@ margin-top: 0;
 .team {
   display: flex;
 }
+  .team-list {
+margin-left: 30px;
+  }
+.team-list:first-child {
+  margin-left: 0;
+}
+
 .desc-text {
   margin-top: 0;
     margin-bottom: 30px;
