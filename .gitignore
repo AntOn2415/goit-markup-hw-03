@@ -110,8 +110,4 @@ dist
 
 .idea
 
-node_modules
-
-.env
-
 *.psd
